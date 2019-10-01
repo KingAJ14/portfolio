@@ -5,7 +5,7 @@
 /* Style the navigation menu */
 .navbar {
     width: 100%;
-    background-color: #555;
+    background-color: #687385;
     overflow: auto;
 }
 
@@ -13,7 +13,7 @@
 /* Style the navigation menu */
 .navbar {
     width: 100%;
-    background-color: #555;
+    background-color: #687385;
     overflow: auto;
 }
 
@@ -33,12 +33,12 @@
 
 /* Add a background color on mouse-over */
 .navbar a:hover {
-    background-color: #000;
+    background-color: #6E7885;
 }
 
 /* Style the current/active link */
 .navbar a:active {
-    background-color: #4CAF50;
+    background-color: #6E7885;
 }
 
 #bannerimg {
@@ -55,7 +55,7 @@
     padding: 10px;
     border-width: 10px;
     border-radius: 30px;
-    border-color: red;
+    border-color: 8FCBFF;
     border-style: solid;
 
 }
@@ -71,7 +71,7 @@
     text-align: left;
     border-width: 10px;
     border-radius: 30px;
-    border-color: red;
+    border-color: 8FCBFF;
     border-style: solid;
-    background-color: #414141;
+    background-color: #8FCBFF;
 }
