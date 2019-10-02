@@ -62,16 +62,18 @@
 
 .box {
     position: relative;
-    width: 50%;
+    width: 75%;
     margin: 1rem;
     padding: 2rem;
     color: #FFF;
     font-size: .9rem;
     font-weight: bold;
-    text-align: left;
-    border-width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: Middle;
+    border-width: 6px;
     border-radius: 30px;
-    border-color: 8FCBFF;
+    border-color: 6E7885;
     border-style: solid;
-    background-color: #8FCBFF;
+    background-color: #395880;
 }
