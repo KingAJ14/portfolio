@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+}
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #395880;
+    overflow: auto;
+}
+
+/* Navigation links */
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #395880;
+    overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    width: 25%;
+    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: grey;
+}
+
+/* Style the current/active link */
+.navbar a:active {
+    background-color: #6E7885;
+}
+
+#bannerimg {
+    width: 100%;
+    height: auto;
+}
+
+.pic {
+    text-align:center;
+    position: sticky;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    top: 80%;
+    right: 60%;
+    padding: 10px;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: white;
+    border-style: solid;
+
+}
+.pic2 {
+    text-align:center;
+    position: sticky;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    top: 80%;
+    right: 6%;
+    padding: 10px;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: white;
+    border-style: solid;
+    
+
+}
+
+.box {
+    position: relative;
+    width: 75%;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: Middle;
+    border-width: 6px;
+    border-radius: 30px;
+    border-color: 6E7885;
+    border-style: solid;
+    background-color: #395880;
+}
+
+.container {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .box {
+        font-size: 17px;
+    }
+}
