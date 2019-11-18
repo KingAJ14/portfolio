@@ -48,12 +48,9 @@
 
 .pic {
     text-align:center;
-    position: sticky;
-    width: 200px;
-    height: 200px;
-    margin: 50px;
-    top: 80%;
-    right: 60%;
+    width: 20%;
+    height: 20%;
+   margin: 15px;
     padding: 10px;
     border-width: 5px;
     border-radius: 30px;
@@ -61,22 +58,7 @@
     border-style: solid;
 
 }
-.pic2 {
-    text-align:center;
-    position: sticky;
-    width: 200px;
-    height: 200px;
-    margin: 50px;
-    top: 80%;
-    right: 6%;
-    padding: 10px;
-    border-width: 5px;
-    border-radius: 30px;
-    border-color: white;
-    border-style: solid;
-    
 
-}
 
 .box {
     position: relative;
