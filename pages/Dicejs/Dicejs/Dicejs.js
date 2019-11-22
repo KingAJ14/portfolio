@@ -4,8 +4,8 @@ function setup()
 {
   noLoop();
   //background(0, 200, 0);
-  var canvas = createCanvas(500, 500);
- canvas.parent('sketch-div');
+   var canvas = createCanvas(500, 500);
+  canvas.parent('sketch-div');
   dice=[];
   for (var i=0; i<3; i++) {
     for (var j=0; j<3; j++) {

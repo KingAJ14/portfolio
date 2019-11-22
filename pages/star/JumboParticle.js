@@ -1,12 +1,12 @@
 class JumboParticle extends NormalParticle//uses inheritance
 {
-  JumboParticle() {
+  constructor() {
     super();
   }
-  void show() {
+  show() {
     noStroke();
     colorMode(HSB);
-    fill(255, 100);
-    ellipse((int)x + 50, (int)y + 50, 25, 25);
+    fill(255, 0.39);
+    ellipse(this.x + 50, this.y + 50, 25, 25);
   }
 }

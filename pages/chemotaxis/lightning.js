@@ -11,8 +11,7 @@ var endY2 = 250;
 var mouseP = false;
 function setup() {
   
-  var canvas = createCanvas(500, 500);
-  canvas.parent('sketch-div');
+  createCanvas(500, 500);
 }
 function draw(){
   //316, 293

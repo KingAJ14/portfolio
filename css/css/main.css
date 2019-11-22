@@ -1,5 +1,12 @@
-*{
+* {
     margin: 0px;
+}
+
+body {
+    text-align: center;
+    
+    padding: 0;
+    margin: auto;
 }
 
 /* Style the navigation menu */
@@ -47,16 +54,28 @@
 }
 
 .pic {
-    text-align:center;
+    text-align: center;
     width: 20%;
     height: 20%;
-   margin: 15px;
+    margin: 15px;
     padding: 10px;
     border-width: 5px;
     border-radius: 30px;
     border-color: white;
     border-style: solid;
 
+}
+
+.explain {
+    position: relative;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    border-width: 6px;
+    border-radius: 30px;
+    border-color: 6E7885;
+    border-style: solid;
+    background-color: #395880;
 }
 
 
@@ -86,35 +105,4 @@
     .box {
         font-size: 17px;
     }
-}
-
-.flex-container{
- display: flex;
-    flex-flow: row nowrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.child1{
-   flex-basis: 20%;
-    padding: 1rem;
-    margin: .5%;
-    height: 10%;
-}
-.child2{
-   flex-basis: 20%;
-    padding: 1rem;
-    margin: 10%;
-    height: .5%;
-    
-     color: #FFF;
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: Middle;
-    border-width: 6px;
-    border-radius: 30px;
-    border-color: 6E7885;
-    border-style: solid;
-    background-color: #395880;
 }
